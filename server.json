@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/audio-to-midi-converter-mcp",
+  "title": "Audio to MIDI Converter \u2014 MP3, WAV to MIDI Notes & Key",
+  "description": "Convert MP3, WAV, FLAC songs to MIDI notes, tempo and key, by Magnova",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/audio-to-midi-converter-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/audio-to-midi-converter"
+    }
+  ]
+}

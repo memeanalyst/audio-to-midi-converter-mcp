@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "audio-to-midi-converter": {
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/audio-to-midi-converter"
+    }
+  }
+}
